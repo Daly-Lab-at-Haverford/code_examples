@@ -1,0 +1,38 @@
+# Harmonic Frequency Calculations
+
+## Overview:
+The example.qcin file contains code to run three geometry optimizations followed by a harmonic frequency calculation.  Only one geometry optimization is required, but the aim of the three optimizations is to gradually build up to a geometry that corresponds to a potential energy minimum as close to the global minimum as possible and that does not result in any imaginary frequencies.  The output can be found in the example.qcout file; frequencies are listed at the end. 
+
+## General note:
+The total memory is set to 1500 MB (1.5 GB) for each calculation, which works well for running calculations on one of the lab workstation.  Increase MEM_TOTAL to 110000 MB (110 GB) when running calculations on Palmetto. 
+
+## Molecule:
+This section contains Cartesian coordinates for the molecules involved (here, one propyne and one additional molecule).  The molecules were initially constructed in iqmol and energy minimized before extracting their coordiantes.  Ideally, the terminal hydrogen of the propyne is pointed towards any electronegative atoms present in the other molecule.  
+
+## Geometry Optimizations:
+All three geometry optimizations and the following frequency calculation were performed using B3LYP-D3/6-311++G(d,p) level of theory.  Over the course of running different frequency calculations, four variables were often changed.  
+    - GEOM_OPT_MAX_CYCLES = 500.  This was set to 500 to avoid running out of cycles before the geometry was fully optimized, but the variable may be reasonably set within the range of 100-500.  
+    - GEOM_OPT_TOL_GRADIENT=300.  This is the default convergence value and will result in the loosest geometry optimization.  In the second and third geometry optimizations, this is set to 30 and 3, respectively, for increasingly tighter optimizations.  
+    - GEOM_OPT_TOL_DISPLACEMENT=1200.  This is the default convergence value and will result in the loosest geometry optimization.  In the second and third geometry optimizations, this is set to 120 and 12, respectively, for increasingly tighter optimizations. 
+    - GEOM_OPT_TOL_ENERGY = 100.  This is the default convergence value and will result in the loosest geometry optimization.  In the second and third geometry optimizations, this is set to 10 and 1, respectively, for increasingly tighter optimizations. 
+For more information, see QChem documentation: https://manual.q-chem.com/5.4/topic_ts_Job-Control.html
+
+## Harmonic Frequency Calculation: 
+Frequency calculation using B3LYP-D3/6-311++G(d,p) level of theory.  If imaginary frequencies result, the structure is stuck between two energy minima and may have to be altered before re-running the geometry optimizations and frequency calculation. 
+
+## References: 
+Evgeny Epifanovsky, Andrew T. B. Gilbert, Xintian Feng, Joonho Lee, Yuezhi Mao, Narbe Mardirossian, Pavel Pokhilko, Alec F. White, Marc P. Coons, Adrian L. Dempwolff, Zhengting Gan, Diptarka Hait, Paul R. Horn, Leif D. Jacobson, Ilya Kaliman, Jörg Kussmann, Adrian W. Lange, Ka Un Lao, Daniel S. Levine, Jie Liu, Simon C. McKenzie, Adrian F. Morrison, Kaushik D. Nanda, Felix Plasser, Dirk R. Rehn, Marta L. Vidal, Zhi-Qiang You, Ying Zhu, Bushra Alam, Benjamin J. Albrecht, Abdulrahman Aldossary, Ethan Alguire, Josefine H. Andersen, Vishikh Athavale, Dennis Barton, Khadiza Begam, Andrew Behn, Nicole Bellonzi, Yves A. Bernard, Eric J. Berquist, Hugh G. A. Burton, Abel Carreras, Kevin Carter-Fenk, Romit Chakraborty, Alan D. Chien, Kristina D. Closser, Vale Cofer-Shabica, Saswata Dasgupta, Marc de Wergifosse, Jia Deng, Michael Diedenhofen, Hainam Do, Sebastian Ehlert, Po-Tung Fang, Shervin Fatehi, Qingguo Feng, Triet Friedhoff, James Gayvert, Qinghui Ge, Gergely Gidofalvi, Matthew Goldey, Joe Gomes, Cristina E. González-Espinoza, Sahil Gulania, Anastasia O. Gunina, Magnus W. D. Hanson-Heine, Phillip H. P. Harbach, Andreas Hauser, Michael F. Herbst, Mario Hernández Vera, Manuel Hodecker, Zachary C. Holden, Shannon Houck, Xunkun Huang, Kerwin Hui, Bang C. Huynh, Maxim Ivanov, Ádám Jász, Hyunjun Ji, Hanjie Jiang, Benjamin Kaduk, Sven Kähler, Kirill Khistyaev, Jaehoon Kim, Gergely Kis, Phil Klunzinger, Zsuzsanna Koczor-Benda, Joong Hoon Koh, Dimitri Kosenkov, Laura Koulias, Tim Kowalczyk, Caroline M. Krauter, Karl Kue, Alexander Kunitsa, Thomas Kus, István Ladjánszki, Arie Landau, Keith V. Lawler, Daniel Lefrancois, Susi Lehtola, Run R. Li, Yi-Pei Li, Jiashu Liang, Marcus Liebenthal, Hung-Hsuan Lin, You-Sheng Lin, Fenglai Liu, Kuan-Yu Liu, Matthias Loipersberger, Arne Luenser, Aaditya Manjanath, Prashant Manohar, Erum Mansoor, Sam F. Manzer, Shan-Ping Mao, Aleksandr V. Marenich, Thomas Markovich, Stephen Mason, Simon A. Maurer, Peter F. McLaughlin, Maximilian F. S. J. Menger, Jan-Michael Mewes, Stefanie A. Mewes, Pierpaolo Morgante, J. Wayne Mullinax, Katherine J. Oosterbaan, Garrette Paran, Alexander C. Paul, Suranjan K. Paul, Fabijan Pavošević, Zheng Pei, Stefan Prager, Emil I. Proynov, Ádám Rák, Eloy Ramos-Cordoba, Bhaskar Rana, Alan E. Rask, Adam Rettig, Ryan M. Richard, Fazle Rob, Elliot Rossomme, Tarek Scheele, Maximilian Scheurer, Matthias Schneider, Nickolai Sergueev, Shaama M. Sharada, Wojciech Skomorowski, David W. Small, Christopher J. Stein, Yu-Chuan Su, Eric J. Sundstrom, Zhen Tao, Jonathan Thirman, Gábor J. Tornai, Takashi Tsuchimochi, Norm M. Tubman, Srimukh Prasad Veccham, Oleg Vydrov, Jan Wenzel, Jon Witte, Atsushi Yamada, Kun Yao, Sina Yeganeh, Shane R. Yost, Alexander Zech, Igor Ying Zhang, Xing Zhang, Yu Zhang, Dmitry Zuev, Alán Aspuru-Guzik, Alexis T. Bell, Nicholas A. Besley, Ksenia B. Bravaya, Bernard R. Brooks, David Casanova, Jeng-Da Chai, Sonia Coriani, Christopher J. Cramer, György Cserey, A. Eugene DePrince III, Robert A. DiStasio Jr., Andreas Dreuw, Barry D. Dunietz, Thomas R. Furlani, William A. Goddard III, Sharon Hammes-Schiffer, Teresa Head-Gordon, Warren J. Hehre, Chao-Ping Hsu, Thomas-C. Jagau, Yousung Jung, Andreas Klamt, Jing Kong, Daniel S. Lambrecht, WanZhen Liang, Nicholas J. Mayhall, C. William McCurdy, Jeffrey B. Neaton, Christian Ochsenfeld, John A. Parkhill, Roberto Peverati, Vitaly A. Rassolov, Yihan Shao, Lyudmila V. Slipchenko, Tim Stauch, Ryan P. Steele, Joseph E. Subotnik, Alex J. W. Thom, Alexandre Tkatchenko, Donald G. Truhlar, Troy Van Voorhis, Tomasz A. Wesolowski, K. Birgitta Whaley, H. Lee Woodcock III, Paul M. Zimmerman, Shirin Faraji, Peter M. W. Gill, Martin Head-Gordon, John M. Herbert, and Anna I. Krylov. Software for the frontiers of quantum chemistry: An overview of developments in the Q-Chem 5 package. [J. Chem. Phys.. 155, 084801 (2021)] 
+
+Axel D. Becke; Density‐functional thermochemistry. III. The role of exact exchange. J. Chem. Phys. 1 April 1993; 98 (7): 5648–5652. https://doi.org/10.1063/1.464913 
+
+Lee, C.; Yang, W.; Parr, R. Development of the Colle-Salvetti Correlation-Energy Formula into a Functional of the Electron Density. PHYSICAL REVIEW B 1988, 37 (2), 785–789. https://doi.org/10.1103/PhysRevB.37.785. 
+
+Self-consistent molecular orbital methods. 21. Small split-valence basis sets for first-row elements 
+J. Stephen Binkley, John A. Pople, and Warren J. Hehre 
+Journal of the American Chemical Society 1980 102 (3), 939-947 
+DOI: 10.1021/ja00523a008 
+
+Corcelli; Skinner. Infrared and Raman Line Shapes of Dilute HOD in Liquid H2O and D2O from 10 to 90 °C. The Journal of Physical Chemistry A 2005, 109 (28). https://doi.org/10.1021/jp0506540. 
+
+Grimme, S., Ehrlich, S. and Goerigk, L. (2011), Effect of the damping function in dispersion corrected density functional theory. J. Comput. Chem., 32: 1456-1465. https://doi.org/10.1002/jcc.21759 
+
