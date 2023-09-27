@@ -19,4 +19,4 @@ After reviewing the 'Materials' folder, please navigate to the 'Code' jupyternot
 
 The directory of the 'code_materials' to use as reference as you go through the tutorial is:
 
-`/homes/kndiaye/code_materials/coordination_numbers`
+`/homes/kndiaye/code_materials/coordination_numbers`.
