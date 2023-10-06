@@ -6,13 +6,13 @@ The code uses a defined set of localized, universal displacements for the CC str
 
 # How to use the code
 1. Copy the files in this directory to a new directory in your workspace
-2. Check that you have the following packages installed:
-    * numpy
-        * The code was developed with version 1.15.1
-    * scipy
-        * The code was developed with version 1.1.0
-    * requests
-        * The code was developed with version 2.27.1
+2. Check that you have the following packages installed. The pacakge versions that were used during code development are specified in parentheses. Presumably newer versions will be compatible, but not necessarily older versions.
+    * python (v 3.7.11)
+    * numpy (v 1.15.1)
+    * scipy (v 1.1.0)
+    * requests (v 2.27.1)
+    * lxml (v 4.2.5)
+    * six (v 1.16.0)
 3. Update n_proc in run_dvr.py to reflect the number of CPUs to allocate for the single point energy calculations. Typically 8 CPUs is appropriate for the squirtle/bulbasaur/charmander workstations or 20 CPUs for eevee/mew/Palmetto. 
     Note: Increasing beyond 20 CPUs may be appropriate for large systems or expensive calculations, and should be done on mew or Palmetto.
 4. In your workspace nagivate to the copied directory and type the following python command into terminal:
