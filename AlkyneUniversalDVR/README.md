@@ -11,6 +11,8 @@ The code uses a defined set of localized, universal displacements for the CC str
         * The code was developed with version 1.15.1
     * scipy
         * The code was developed with version 1.1.0
+    * requests
+        * The code was developed with version 2.27.1
 3. Update n_proc in run_dvr.py to reflect the number of CPUs to allocate for the single point energy calculations. Typically 8 CPUs is appropriate for the squirtle/bulbasaur/charmander workstations or 20 CPUs for eevee/mew/Palmetto. 
     Note: Increasing beyond 20 CPUs may be appropriate for large systems or expensive calculations, and should be done on mew or Palmetto.
 4. In your workspace nagivate to the copied directory and type the following python command into terminal:

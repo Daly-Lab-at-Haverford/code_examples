@@ -155,7 +155,7 @@ def run_3atom_DVR(probe, calc_method, calc_basis, n_proc, N, H, CH, CR, R):
 
             except:
                 pass
-        print('Finished single point energy calculation for Q = ' + round(n,2))
+        print('Finished single point energy calculation for Q = ' + str(round(n,2)))
 
     print('The PES energy array = \n' + str(e_pes))
 
