@@ -30,11 +30,12 @@ python run_dvr.py > run_dvr-out.txt
     * N is the integer total number of atoms in the system that appear in the .xyz file.
     * H, CH, CR, and R are the 0-indexed integer atom numbers corresponding to the H, CH, CR, and R atoms. The H atom is the terminal hydrogen, CH is the carbon in the triple-bond adjacent the terminal hydrogen, CR is the carbon in the triple-bond adjacent the R atom, and R is the atom adjacent the -CCH moeity.
 2. Remove the example propyne.xyz file and replace with the .xyz file of interest.
-3. If applicable, update the DFT method/basis. 
-    Note: by default the calculation includes the following QChem keywords in the $rem section of the input file:
+3. If applicable, change the DFT functional or basis set by updating calc_method and calc_basis in run_dvr.py. 
+    Note: By default the calculation includes the following QChem keywords in the $rem section of the input file:
         * DFT_D = D3
-        * DFT_GRID = 
-    To change/remove the dispersion or DFT grid settings, edit extra_rem_keywords in DVR_3atom.py. 
+        * XC_SMART_GRID = True
+        * XC_GRID = 000099000590
+    To change/remove the dispersion or DFT grid settings, update extra_rem_keywords in DVR_3atom.py. 
 
 
 # How the code works
