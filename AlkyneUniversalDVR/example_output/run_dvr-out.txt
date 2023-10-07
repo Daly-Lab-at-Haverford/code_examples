@@ -1,0 +1,42 @@
+Beginning PPY/TPSS_6-311++G** DVR Calculation
+Optimized Coordinates for DVR = 
+[[ 2.67180000e-06  6.34700000e-07 -2.17068328e-01]
+ [-2.34970000e-06  3.91000000e-08 -1.42652350e+00]
+ [-4.00110000e-06 -1.30200000e-06 -2.49180794e+00]
+ [-3.39600000e-06  0.00000000e+00  1.24258477e+00]
+ [ 9.91633899e-01  2.60199293e-01  1.63230416e+00]
+ [-2.70486884e-01 -9.88884083e-01  1.63229713e+00]
+ [-7.21160709e-01  7.28685801e-01  1.63229993e+00]]
+Atom symbols for DVR = 
+['C', 'C', 'H', 'C', 'H', 'H', 'H']
+r0_r_cr = 1.45965310171275
+r0_cr_ch = 1.2094551738105708
+r0_ch_h = 1.065284439002124
+Calculating 20 single point energies
+Finished single point energy calculation for Q = -0.3
+Finished single point energy calculation for Q = -0.26
+Finished single point energy calculation for Q = -0.22
+Finished single point energy calculation for Q = -0.17
+Finished single point energy calculation for Q = -0.13
+Finished single point energy calculation for Q = -0.09
+Finished single point energy calculation for Q = -0.05
+Finished single point energy calculation for Q = -0.01
+Finished single point energy calculation for Q = 0.04
+Finished single point energy calculation for Q = 0.08
+Finished single point energy calculation for Q = 0.12
+Finished single point energy calculation for Q = 0.16
+Finished single point energy calculation for Q = 0.21
+Finished single point energy calculation for Q = 0.25
+Finished single point energy calculation for Q = 0.29
+Finished single point energy calculation for Q = 0.33
+Finished single point energy calculation for Q = 0.37
+Finished single point energy calculation for Q = 0.42
+Finished single point energy calculation for Q = 0.46
+Finished single point energy calculation for Q = 0.5
+The PES energy array = 
+[-116.40338234 -116.50122126 -116.57475163 -116.62846674 -116.66605913
+ -116.69042283 -116.70400468 -116.70875747 -116.70626018 -116.69778662
+ -116.68435716 -116.66678372 -116.64570416 -116.62160794 -116.59486009
+ -116.565715   -116.53433338 -116.50079021 -116.46508146 -116.42713247]
+The calculated normal mode DVR frequency = 2156.143172531103
+PPY/TPSS_6-311++G** DVR Calculation Complete!
