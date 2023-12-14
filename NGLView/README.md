@@ -1,6 +1,6 @@
 # Overview
 
-NGLView is a miolecular visualization program which runs from a Jupyter notebook environment. This code example is meant to assist using it.
+NGLView is a molecular visualization program which runs from a Jupyter notebook environment. This code example is meant to assist using it.
 
 # Required Packages
 
@@ -27,8 +27,7 @@ These can be installed using conda:
 * Included in this code example are a PDB file for dinitrobenzine.pdb, a PDB file for a solvated acyl carrier protein structure, and a Jupyter Notebook showing how to visualize both.
 
 # Notes
-* If you get the error `AttributeError: 'super' object has no attribute '_ipython_display_'
-` when you try to import nglview, you probably should reinstall nglview, jupyter, and notebook
+* If you get the error `AttributeError: 'super' object has no attribute '_ipython_display_'` when you try to import nglview, you probably should reinstall nglview, jupyter, and notebook
 
 # Other Useful Links
 
