@@ -1,300 +1,300 @@
-2024-03-23:22:08:43,50 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'function_kwargs': {}}
-2024-03-23:22:08:43,55 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.763924035566667
-2024-03-23:22:08:44,167 INFO     [psi4.driver.driver:526] Return energy(): -0.6938317069621909
-2024-03-23:22:08:44,187 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:44,190 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.6684249635773887
-2024-03-23:22:08:44,777 INFO     [psi4.driver.driver:526] Return energy(): -0.7611673032583297
-2024-03-23:22:08:44,798 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:44,800 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.5827354639374627
-2024-03-23:22:08:45,465 INFO     [psi4.driver.driver:526] Return energy(): -0.8191129437970586
-2024-03-23:22:08:45,497 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:45,501 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.5054179269060348
-2024-03-23:22:08:46,236 INFO     [psi4.driver.driver:526] Return energy(): -0.8691378335295412
-2024-03-23:22:08:46,257 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:46,260 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.4353025714063017
-2024-03-23:22:08:46,844 INFO     [psi4.driver.driver:526] Return energy(): -0.9124359880973071
-2024-03-23:22:08:46,863 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:46,866 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.3714278496421466
-2024-03-23:22:08:47,673 INFO     [psi4.driver.driver:526] Return energy(): -0.9499868331356571
-2024-03-23:22:08:47,695 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:47,698 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.3129960866248123
-2024-03-23:22:08:48,392 INFO     [psi4.driver.driver:526] Return energy(): -0.9826004178494224
-2024-03-23:22:08:48,415 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:48,418 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.2593399965463943
-2024-03-23:22:08:49,52 INFO     [psi4.driver.driver:526] Return energy(): -1.0109516945806856
-2024-03-23:22:08:49,72 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:49,75 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.2098970867512704
-2024-03-23:22:08:49,647 INFO     [psi4.driver.driver:526] Return energy(): -1.0356068766717779
-2024-03-23:22:08:49,668 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:49,671 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.1641898634739998
-2024-03-23:22:08:50,246 INFO     [psi4.driver.driver:526] Return energy(): -1.057043948968044
-2024-03-23:22:08:50,266 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:50,268 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.1218103609492505
-2024-03-23:22:08:50,839 INFO     [psi4.driver.driver:526] Return energy(): -1.075668786962972
-2024-03-23:22:08:50,858 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:50,861 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.082407930915909
-2024-03-23:22:08:51,561 INFO     [psi4.driver.driver:526] Return energy(): -1.0918279297128608
-2024-03-23:22:08:51,585 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:51,590 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.045679518090419
-2024-03-23:22:08:52,207 INFO     [psi4.driver.driver:526] Return energy(): -1.1058187733713252
-2024-03-23:22:08:52,227 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:52,229 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.0113618505083013
-2024-03-23:22:08:52,843 INFO     [psi4.driver.driver:526] Return energy(): -1.117897756283408
-2024-03-23:22:08:52,864 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:52,866 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.9792251188099064
-2024-03-23:22:08:53,495 INFO     [psi4.driver.driver:526] Return energy(): -1.1282869888450477
-2024-03-23:22:08:53,518 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:53,522 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.9490678234842393
-2024-03-23:22:08:54,165 INFO     [psi4.driver.driver:526] Return energy(): -1.1371796094843882
-2024-03-23:22:08:54,187 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:54,190 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.9207125458054479
-2024-03-23:22:08:54,834 INFO     [psi4.driver.driver:526] Return energy(): -1.1447442080201795
-2024-03-23:22:08:54,855 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:54,857 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.8940024548861776
-2024-03-23:22:08:55,531 INFO     [psi4.driver.driver:526] Return energy(): -1.151128457015909
-2024-03-23:22:08:55,557 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:55,560 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.868798405577612
-2024-03-23:22:08:56,313 INFO     [psi4.driver.driver:526] Return energy(): -1.1564620837412802
-2024-03-23:22:08:56,333 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:56,336 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.8449765138117742
-2024-03-23:22:08:57,45 INFO     [psi4.driver.driver:526] Return energy(): -1.1608594097205653
-2024-03-23:22:08:57,78 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:57,83 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.8224261201935635
-2024-03-23:22:08:57,843 INFO     [psi4.driver.driver:526] Return energy(): -1.1644214396966202
-2024-03-23:22:08:57,865 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:57,868 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.8010480711977064
-2024-03-23:22:08:58,508 INFO     [psi4.driver.driver:526] Return energy(): -1.1672376407236076
-2024-03-23:22:08:58,528 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:58,531 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.7807532616442623
-2024-03-23:22:08:59,171 INFO     [psi4.driver.driver:526] Return energy(): -1.1693874514710711
-2024-03-23:22:08:59,192 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:59,194 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.7614613932606105
-2024-03-23:22:08:59,822 INFO     [psi4.driver.driver:526] Return energy(): -1.1709415691067553
-2024-03-23:22:08:59,842 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:08:59,845 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.7430999128557446
-2024-03-23:22:09:00,480 INFO     [psi4.driver.driver:526] Return energy(): -1.1719630498116265
-2024-03-23:22:09:00,501 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:00,503 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.7256031005031855
-2024-03-23:22:09:01,259 INFO     [psi4.driver.driver:526] Return energy(): -1.1725082508030187
-2024-03-23:22:09:01,280 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:01,283 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.7089112835768607
-2024-03-23:22:09:02,204 INFO     [psi4.driver.driver:526] Return energy(): -1.1726276357317125
-2024-03-23:22:09:02,225 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:02,228 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.6929701568297618
-2024-03-23:22:09:02,867 INFO     [psi4.driver.driver:526] Return energy(): -1.1723664649365015
-2024-03-23:22:09:02,888 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:02,890 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.6777301921905563
-2024-03-23:22:09:03,517 INFO     [psi4.driver.driver:526] Return energy(): -1.1717653798183885
-2024-03-23:22:09:03,537 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:03,540 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.6631461247636709
-2024-03-23:22:09:04,225 INFO     [psi4.driver.driver:526] Return energy(): -1.1708609117298867
-2024-03-23:22:09:04,247 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:04,249 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.6491765037959109
-2024-03-23:22:09:04,895 INFO     [psi4.driver.driver:526] Return energy(): -1.1696859186753694
-2024-03-23:22:09:04,917 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:04,920 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.6357832992273057
-2024-03-23:22:09:05,576 INFO     [psi4.driver.driver:526] Return energy(): -1.16826997334294
-2024-03-23:22:09:05,596 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:05,598 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.6229315559611178
-2024-03-23:22:09:06,229 INFO     [psi4.driver.driver:526] Return energy(): -1.1666397117420506
-2024-03-23:22:09:06,248 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:06,251 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.6105890892346153
-2024-03-23:22:09:06,870 INFO     [psi4.driver.driver:526] Return energy(): -1.164819149668198
-2024-03-23:22:09:06,892 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:06,895 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5987262155009143
-2024-03-23:22:09:07,510 INFO     [psi4.driver.driver:526] Return energy(): -1.16282997133718
-2024-03-23:22:09:07,530 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:07,532 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.587315514084417
-2024-03-23:22:09:08,162 INFO     [psi4.driver.driver:526] Return energy(): -1.160691789409485
-2024-03-23:22:09:08,182 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:08,184 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5763316155811882
-2024-03-23:22:09:08,823 INFO     [psi4.driver.driver:526] Return energy(): -1.1584223756439502
-2024-03-23:22:09:08,843 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:08,846 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5657510135672786
-2024-03-23:22:09:09,486 INFO     [psi4.driver.driver:526] Return energy(): -1.15603786522028
-2024-03-23:22:09:09,506 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:09,509 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.555551896673701
-2024-03-23:22:09:10,122 INFO     [psi4.driver.driver:526] Return energy(): -1.153552932676991
-2024-03-23:22:09:10,142 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:10,145 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5457139985034374
-2024-03-23:22:09:10,756 INFO     [psi4.driver.driver:526] Return energy(): -1.1509809434398257
-2024-03-23:22:09:10,776 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:10,779 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5362184632172978
-2024-03-23:22:09:11,465 INFO     [psi4.driver.driver:526] Return energy(): -1.1483340872632986
-2024-03-23:22:09:11,485 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:11,488 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5270477249127768
-2024-03-23:22:09:12,208 INFO     [psi4.driver.driver:526] Return energy(): -1.1456234982833937
-2024-03-23:22:09:12,228 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:12,231 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5181853991724036
-2024-03-23:22:09:12,862 INFO     [psi4.driver.driver:526] Return energy(): -1.1428593442880217
-2024-03-23:22:09:12,882 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:12,884 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5096161853728599
-2024-03-23:22:09:13,531 INFO     [psi4.driver.driver:526] Return energy(): -1.140050929553714
-2024-03-23:22:09:13,551 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:13,554 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5013257785294737
-2024-03-23:22:09:14,182 INFO     [psi4.driver.driver:526] Return energy(): -1.1372067688551193
-2024-03-23:22:09:14,203 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:14,206 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.49330078960762713
-2024-03-23:22:09:14,835 INFO     [psi4.driver.driver:526] Return energy(): -1.1343346566999517
-2024-03-23:22:09:14,857 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:14,860 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4855286733672845
-2024-03-23:22:09:15,477 INFO     [psi4.driver.driver:526] Return energy(): -1.1314417391011808
-2024-03-23:22:09:15,499 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:15,527 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.47799766292271895
-2024-03-23:22:09:16,255 INFO     [psi4.driver.driver:526] Return energy(): -1.1285345639234865
-2024-03-23:22:09:16,276 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:16,279 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4706967102994609
-2024-03-23:22:09:16,924 INFO     [psi4.driver.driver:526] Return energy(): -1.1256191366736823
-2024-03-23:22:09:16,944 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:16,947 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4636154323569026
-2024-03-23:22:09:17,728 INFO     [psi4.driver.driver:526] Return energy(): -1.122700967285192
-2024-03-23:22:09:17,749 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:17,751 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4567440615198779
-2024-03-23:22:09:18,442 INFO     [psi4.driver.driver:526] Return energy(): -1.1197851104385401
-2024-03-23:22:09:18,462 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:18,464 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.45007340082757735
-2024-03-23:22:09:19,99 INFO     [psi4.driver.driver:526] Return energy(): -1.1168762044003586
-2024-03-23:22:09:19,119 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:19,121 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4435947828647757
-2024-03-23:22:09:19,758 INFO     [psi4.driver.driver:526] Return energy(): -1.11397850678495
-2024-03-23:22:09:19,778 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:19,780 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4373000321897329
-2024-03-23:22:09:20,414 INFO     [psi4.driver.driver:526] Return energy(): -1.1110959232745439
-2024-03-23:22:09:20,434 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:20,436 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.43118143091629624
-2024-03-23:22:09:21,92 INFO     [psi4.driver.driver:526] Return energy(): -1.1082320358499238
-2024-03-23:22:09:21,112 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:21,114 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4252316871455357
-2024-03-23:22:09:21,832 INFO     [psi4.driver.driver:526] Return energy(): -1.1053901276640687
-2024-03-23:22:09:21,852 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:21,854 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4194439059754204
-2024-03-23:22:09:22,508 INFO     [psi4.driver.driver:526] Return energy(): -1.1025732054656332
-2024-03-23:22:09:22,529 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:22,531 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4138115628462085
-2024-03-23:22:09:23,269 INFO     [psi4.driver.driver:526] Return energy(): -1.0997840198440954
-2024-03-23:22:09:23,290 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:23,292 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4083284790049105
-2024-03-23:22:09:23,980 INFO     [psi4.driver.driver:526] Return energy(): -1.0970250835428184
-2024-03-23:22:09:24,1 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:24,4 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4029887988948462
-2024-03-23:22:09:24,713 INFO     [psi4.driver.driver:526] Return energy(): -1.0942986880609573
-2024-03-23:22:09:24,735 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:24,738 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3977869692963554
-2024-03-23:22:09:25,383 INFO     [psi4.driver.driver:526] Return energy(): -1.0916069186721786
-2024-03-23:22:09:25,403 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:25,406 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.39271772006244376
-2024-03-23:22:09:26,70 INFO     [psi4.driver.driver:526] Return energy(): -1.0889516685229657
-2024-03-23:22:09:26,91 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:26,93 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3877760463088823
-2024-03-23:22:09:26,742 INFO     [psi4.driver.driver:526] Return energy(): -1.086334650500099
-2024-03-23:22:09:26,763 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:26,765 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3829571919322368
-2024-03-23:22:09:27,483 INFO     [psi4.driver.driver:526] Return energy(): -1.0837574094429212
-2024-03-23:22:09:27,507 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:27,510 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.37825663434173284
-2024-03-23:22:09:28,256 INFO     [psi4.driver.driver:526] Return energy(): -1.0812213323765798
-2024-03-23:22:09:28,279 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:28,282 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.37367007030192584
-2024-03-23:22:09:28,925 INFO     [psi4.driver.driver:526] Return energy(): -1.078727658332078
-2024-03-23:22:09:28,946 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:28,948 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.36919340279302343
-2024-03-23:22:09:29,644 INFO     [psi4.driver.driver:526] Return energy(): -1.0762774871598393
-2024-03-23:22:09:29,687 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:29,690 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3648227288045265
-2024-03-23:22:09:30,356 INFO     [psi4.driver.driver:526] Return energy(): -1.0738717888227989
-2024-03-23:22:09:30,380 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:30,383 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3605543279857537
-2024-03-23:22:09:31,43 INFO     [psi4.driver.driver:526] Return energy(): -1.0715114091580498
-2024-03-23:22:09:31,64 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:31,67 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3563846520838775
-2024-03-23:22:09:31,874 INFO     [psi4.driver.driver:526] Return energy(): -1.0691970791173508
-2024-03-23:22:09:31,894 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:31,917 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.35231031510645594
-2024-03-23:22:09:32,583 INFO     [psi4.driver.driver:526] Return energy(): -1.066929420613592
-2024-03-23:22:09:32,603 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:32,606 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.34832808415113037
-2024-03-23:22:09:33,244 INFO     [psi4.driver.driver:526] Return energy(): -1.0647089521528874
-2024-03-23:22:09:33,265 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:33,268 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.34443487085029584
-2024-03-23:22:09:33,970 INFO     [psi4.driver.driver:526] Return energy(): -1.062536095947015
-2024-03-23:22:09:33,990 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:33,993 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.34062772338315994
-2024-03-23:22:09:34,654 INFO     [psi4.driver.driver:526] Return energy(): -1.0604111817870765
-2024-03-23:22:09:34,675 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:34,677 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3369038190117686
-2024-03-23:22:09:35,319 INFO     [psi4.driver.driver:526] Return energy(): -1.0583344534909829
-2024-03-23:22:09:35,340 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:35,343 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3332604571013359
-2024-03-23:22:09:36,3 INFO     [psi4.driver.driver:526] Return energy(): -1.0563060728563218
-2024-03-23:22:09:36,25 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:36,28 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.32969505258860915
-2024-03-23:22:09:36,711 INFO     [psi4.driver.driver:526] Return energy(): -1.0543261242551363
-2024-03-23:22:09:36,734 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:36,737 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.32620512986506844
-2024-03-23:22:09:37,382 INFO     [psi4.driver.driver:526] Return energy(): -1.0523946187722195
-2024-03-23:22:09:37,401 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:37,404 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3227883170445472
-2024-03-23:22:09:38,34 INFO     [psi4.driver.driver:526] Return energy(): -1.0505114980876744
-2024-03-23:22:09:38,55 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:38,57 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.319442340587378
-2024-03-23:22:09:38,849 INFO     [psi4.driver.driver:526] Return energy(): -1.04867663812798
-2024-03-23:22:09:38,880 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:38,884 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.31616502025546167
-2024-03-23:22:09:39,844 INFO     [psi4.driver.driver:526] Return energy(): -1.0468898520469134
-2024-03-23:22:09:39,886 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:39,893 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.31295426437473123
-2024-03-23:22:09:41,17 INFO     [psi4.driver.driver:526] Return energy(): -1.0451508926455864
-2024-03-23:22:09:41,53 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:41,57 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3098080653833827
-2024-03-23:22:09:42,245 INFO     [psi4.driver.driver:526] Return energy(): -1.0434594665661865
-2024-03-23:22:09:42,284 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:42,290 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3067244956459602
-2024-03-23:22:09:43,342 INFO     [psi4.driver.driver:526] Return energy(): -1.041815211811551
-2024-03-23:22:09:43,371 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:43,375 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3037017035149565
-2024-03-23:22:09:44,212 INFO     [psi4.driver.driver:526] Return energy(): -1.0402177227258644
-2024-03-23:22:09:44,232 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:44,234 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3007379096230196
-2024-03-23:22:09:44,875 INFO     [psi4.driver.driver:526] Return energy(): -1.0386665514051985
-2024-03-23:22:09:44,895 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:44,898 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.2978314033901649
-2024-03-23:22:09:45,586 INFO     [psi4.driver.driver:526] Return energy(): -1.037161199533374
-2024-03-23:22:09:45,607 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:45,609 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.29498053973158783
-2024-03-23:22:09:46,470 INFO     [psi4.driver.driver:526] Return energy(): -1.0357011299633267
-2024-03-23:22:09:46,494 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:46,497 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.2921837359527607
-2024-03-23:22:09:47,175 INFO     [psi4.driver.driver:526] Return energy(): -1.0342857600355322
-2024-03-23:22:09:47,195 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:47,198 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.28943946881950283
-2024-03-23:22:09:47,855 INFO     [psi4.driver.driver:526] Return energy(): -1.0329144724590218
-2024-03-23:22:09:47,875 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:47,878 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.28674627179162565
-2024-03-23:22:09:48,548 INFO     [psi4.driver.driver:526] Return energy(): -1.031586623462773
-2024-03-23:22:09:48,569 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:48,571 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.2841027324095987
-2024-03-23:22:09:49,239 INFO     [psi4.driver.driver:526] Return energy(): -1.0303015206866868
-2024-03-23:22:09:49,260 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:49,263 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.2815074898244492
-2024-03-23:22:09:49,924 INFO     [psi4.driver.driver:526] Return energy(): -1.0290584570460124
-2024-03-23:22:09:49,945 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:49,947 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.27895923246182114
-2024-03-23:22:09:50,596 INFO     [psi4.driver.driver:526] Return energy(): -1.027856687816634
-2024-03-23:22:09:50,617 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:50,620 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.2764566958117678
-2024-03-23:22:09:51,303 INFO     [psi4.driver.driver:526] Return energy(): -1.0266954507293753
-2024-03-23:22:09:51,324 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:51,326 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.273998660336454
-2024-03-23:22:09:52,100 INFO     [psi4.driver.driver:526] Return energy(): -1.0255739523020329
-2024-03-23:22:09:52,123 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:52,126 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.2715839494884915
-2024-03-23:22:09:52,782 INFO     [psi4.driver.driver:526] Return energy(): -1.0244913840932508
-2024-03-23:22:09:52,802 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:52,805 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.26921142783314495
-2024-03-23:22:09:53,473 INFO     [psi4.driver.driver:526] Return energy(): -1.0234469181021806
-2024-03-23:22:09:53,495 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:53,497 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.26687999926811007
-2024-03-23:22:09:54,151 INFO     [psi4.driver.driver:526] Return energy(): -1.0224397104816343
-2024-03-23:22:09:54,171 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
-2024-03-23:22:09:54,174 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.26458860533499995
-2024-03-23:22:09:54,927 INFO     [psi4.driver.driver:526] Return energy(): -1.021468903834796
+2024-03-25:16:36:52,665 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'function_kwargs': {}}
+2024-03-25:16:36:52,669 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.763924035566667
+2024-03-25:16:36:54,32 INFO     [psi4.driver.driver:526] Return energy(): -0.6938317069621909
+2024-03-25:16:36:54,53 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:36:54,56 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.6684249635773887
+2024-03-25:16:36:54,711 INFO     [psi4.driver.driver:526] Return energy(): -0.7611673032583297
+2024-03-25:16:36:54,731 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:36:54,734 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.5827354639374627
+2024-03-25:16:36:55,433 INFO     [psi4.driver.driver:526] Return energy(): -0.8191129437970586
+2024-03-25:16:36:55,453 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:36:55,456 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.5054179269060348
+2024-03-25:16:36:56,261 INFO     [psi4.driver.driver:526] Return energy(): -0.8691378335295412
+2024-03-25:16:36:56,282 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:36:56,284 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.4353025714063017
+2024-03-25:16:36:56,927 INFO     [psi4.driver.driver:526] Return energy(): -0.9124359880973071
+2024-03-25:16:36:56,947 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:36:56,949 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.3714278496421466
+2024-03-25:16:36:57,912 INFO     [psi4.driver.driver:526] Return energy(): -0.9499868331356571
+2024-03-25:16:36:57,938 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:36:57,941 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.3129960866248123
+2024-03-25:16:36:58,628 INFO     [psi4.driver.driver:526] Return energy(): -0.9826004178494224
+2024-03-25:16:36:58,654 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:36:58,658 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.2593399965463943
+2024-03-25:16:36:59,288 INFO     [psi4.driver.driver:526] Return energy(): -1.0109516945806856
+2024-03-25:16:36:59,312 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:36:59,315 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.2098970867512704
+2024-03-25:16:37:00,87 INFO     [psi4.driver.driver:526] Return energy(): -1.0356068766717779
+2024-03-25:16:37:00,111 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:00,114 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.1641898634739998
+2024-03-25:16:37:00,782 INFO     [psi4.driver.driver:526] Return energy(): -1.057043948968044
+2024-03-25:16:37:00,806 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:00,810 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.1218103609492505
+2024-03-25:16:37:01,454 INFO     [psi4.driver.driver:526] Return energy(): -1.075668786962972
+2024-03-25:16:37:01,478 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:01,481 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.082407930915909
+2024-03-25:16:37:02,106 INFO     [psi4.driver.driver:526] Return energy(): -1.0918279297128608
+2024-03-25:16:37:02,127 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:02,130 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.045679518090419
+2024-03-25:16:37:02,751 INFO     [psi4.driver.driver:526] Return energy(): -1.1058187733713252
+2024-03-25:16:37:02,771 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:02,774 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=1.0113618505083013
+2024-03-25:16:37:03,528 INFO     [psi4.driver.driver:526] Return energy(): -1.117897756283408
+2024-03-25:16:37:03,552 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:03,556 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.9792251188099064
+2024-03-25:16:37:04,532 INFO     [psi4.driver.driver:526] Return energy(): -1.1282869888450477
+2024-03-25:16:37:04,564 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:04,568 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.9490678234842393
+2024-03-25:16:37:05,450 INFO     [psi4.driver.driver:526] Return energy(): -1.1371796094843882
+2024-03-25:16:37:05,486 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:05,491 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.9207125458054479
+2024-03-25:16:37:06,181 INFO     [psi4.driver.driver:526] Return energy(): -1.1447442080201795
+2024-03-25:16:37:06,200 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:06,203 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.8940024548861776
+2024-03-25:16:37:07,34 INFO     [psi4.driver.driver:526] Return energy(): -1.151128457015909
+2024-03-25:16:37:07,59 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:07,62 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.868798405577612
+2024-03-25:16:37:07,946 INFO     [psi4.driver.driver:526] Return energy(): -1.1564620837412802
+2024-03-25:16:37:07,968 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:07,970 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.8449765138117742
+2024-03-25:16:37:08,705 INFO     [psi4.driver.driver:526] Return energy(): -1.1608594097205653
+2024-03-25:16:37:08,725 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:08,728 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.8224261201935635
+2024-03-25:16:37:09,441 INFO     [psi4.driver.driver:526] Return energy(): -1.1644214396966202
+2024-03-25:16:37:09,462 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:09,465 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.8010480711977064
+2024-03-25:16:37:10,172 INFO     [psi4.driver.driver:526] Return energy(): -1.1672376407236076
+2024-03-25:16:37:10,192 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:10,195 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.7807532616442623
+2024-03-25:16:37:11,168 INFO     [psi4.driver.driver:526] Return energy(): -1.1693874514710711
+2024-03-25:16:37:11,188 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:11,191 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.7614613932606105
+2024-03-25:16:37:11,871 INFO     [psi4.driver.driver:526] Return energy(): -1.1709415691067553
+2024-03-25:16:37:11,895 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:11,898 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.7430999128557446
+2024-03-25:16:37:12,578 INFO     [psi4.driver.driver:526] Return energy(): -1.1719630498116265
+2024-03-25:16:37:12,598 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:12,600 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.7256031005031855
+2024-03-25:16:37:13,280 INFO     [psi4.driver.driver:526] Return energy(): -1.1725082508030187
+2024-03-25:16:37:13,299 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:13,302 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.7089112835768607
+2024-03-25:16:37:14,45 INFO     [psi4.driver.driver:526] Return energy(): -1.1726276357317125
+2024-03-25:16:37:14,64 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:14,67 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.6929701568297618
+2024-03-25:16:37:14,819 INFO     [psi4.driver.driver:526] Return energy(): -1.1723664649365015
+2024-03-25:16:37:14,839 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:14,842 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.6777301921905563
+2024-03-25:16:37:15,487 INFO     [psi4.driver.driver:526] Return energy(): -1.1717653798183885
+2024-03-25:16:37:15,507 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:15,509 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.6631461247636709
+2024-03-25:16:37:16,176 INFO     [psi4.driver.driver:526] Return energy(): -1.1708609117298867
+2024-03-25:16:37:16,196 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:16,199 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.6491765037959109
+2024-03-25:16:37:16,932 INFO     [psi4.driver.driver:526] Return energy(): -1.1696859186753694
+2024-03-25:16:37:16,952 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:16,955 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.6357832992273057
+2024-03-25:16:37:17,687 INFO     [psi4.driver.driver:526] Return energy(): -1.16826997334294
+2024-03-25:16:37:17,708 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:17,710 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.6229315559611178
+2024-03-25:16:37:18,324 INFO     [psi4.driver.driver:526] Return energy(): -1.1666397117420506
+2024-03-25:16:37:18,346 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:18,349 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.6105890892346153
+2024-03-25:16:37:19,77 INFO     [psi4.driver.driver:526] Return energy(): -1.164819149668198
+2024-03-25:16:37:19,97 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:19,100 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5987262155009143
+2024-03-25:16:37:19,758 INFO     [psi4.driver.driver:526] Return energy(): -1.16282997133718
+2024-03-25:16:37:19,782 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:19,785 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.587315514084417
+2024-03-25:16:37:20,472 INFO     [psi4.driver.driver:526] Return energy(): -1.160691789409485
+2024-03-25:16:37:20,493 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:20,495 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5763316155811882
+2024-03-25:16:37:21,167 INFO     [psi4.driver.driver:526] Return energy(): -1.1584223756439502
+2024-03-25:16:37:21,188 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:21,190 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5657510135672786
+2024-03-25:16:37:21,861 INFO     [psi4.driver.driver:526] Return energy(): -1.15603786522028
+2024-03-25:16:37:21,881 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:21,883 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.555551896673701
+2024-03-25:16:37:22,516 INFO     [psi4.driver.driver:526] Return energy(): -1.153552932676991
+2024-03-25:16:37:22,537 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:22,539 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5457139985034374
+2024-03-25:16:37:23,196 INFO     [psi4.driver.driver:526] Return energy(): -1.1509809434398257
+2024-03-25:16:37:23,216 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:23,219 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5362184632172978
+2024-03-25:16:37:23,874 INFO     [psi4.driver.driver:526] Return energy(): -1.1483340872632986
+2024-03-25:16:37:23,897 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:23,900 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5270477249127768
+2024-03-25:16:37:24,656 INFO     [psi4.driver.driver:526] Return energy(): -1.1456234982833937
+2024-03-25:16:37:24,676 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:24,678 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5181853991724036
+2024-03-25:16:37:25,328 INFO     [psi4.driver.driver:526] Return energy(): -1.1428593442880217
+2024-03-25:16:37:25,349 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:25,352 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5096161853728599
+2024-03-25:16:37:26,23 INFO     [psi4.driver.driver:526] Return energy(): -1.140050929553714
+2024-03-25:16:37:26,43 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:26,46 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.5013257785294737
+2024-03-25:16:37:26,799 INFO     [psi4.driver.driver:526] Return energy(): -1.1372067688551193
+2024-03-25:16:37:26,819 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:26,821 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.49330078960762713
+2024-03-25:16:37:27,825 INFO     [psi4.driver.driver:526] Return energy(): -1.1343346566999517
+2024-03-25:16:37:27,845 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:27,848 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4855286733672845
+2024-03-25:16:37:28,497 INFO     [psi4.driver.driver:526] Return energy(): -1.1314417391011808
+2024-03-25:16:37:28,517 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:28,520 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.47799766292271895
+2024-03-25:16:37:29,230 INFO     [psi4.driver.driver:526] Return energy(): -1.1285345639234865
+2024-03-25:16:37:29,259 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:29,263 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4706967102994609
+2024-03-25:16:37:29,996 INFO     [psi4.driver.driver:526] Return energy(): -1.1256191366736823
+2024-03-25:16:37:30,17 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:30,20 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4636154323569026
+2024-03-25:16:37:30,698 INFO     [psi4.driver.driver:526] Return energy(): -1.122700967285192
+2024-03-25:16:37:30,718 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:30,721 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4567440615198779
+2024-03-25:16:37:31,413 INFO     [psi4.driver.driver:526] Return energy(): -1.1197851104385401
+2024-03-25:16:37:31,434 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:31,436 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.45007340082757735
+2024-03-25:16:37:32,117 INFO     [psi4.driver.driver:526] Return energy(): -1.1168762044003586
+2024-03-25:16:37:32,138 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:32,140 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4435947828647757
+2024-03-25:16:37:33,41 INFO     [psi4.driver.driver:526] Return energy(): -1.11397850678495
+2024-03-25:16:37:33,61 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:33,64 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4373000321897329
+2024-03-25:16:37:33,798 INFO     [psi4.driver.driver:526] Return energy(): -1.1110959232745439
+2024-03-25:16:37:33,819 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:33,821 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.43118143091629624
+2024-03-25:16:37:34,508 INFO     [psi4.driver.driver:526] Return energy(): -1.1082320358499238
+2024-03-25:16:37:34,529 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:34,532 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4252316871455357
+2024-03-25:16:37:35,217 INFO     [psi4.driver.driver:526] Return energy(): -1.1053901276640687
+2024-03-25:16:37:35,237 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:35,240 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4194439059754204
+2024-03-25:16:37:35,932 INFO     [psi4.driver.driver:526] Return energy(): -1.1025732054656332
+2024-03-25:16:37:35,952 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:35,955 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4138115628462085
+2024-03-25:16:37:36,624 INFO     [psi4.driver.driver:526] Return energy(): -1.0997840198440954
+2024-03-25:16:37:36,644 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:36,647 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4083284790049105
+2024-03-25:16:37:37,333 INFO     [psi4.driver.driver:526] Return energy(): -1.0970250835428184
+2024-03-25:16:37:37,354 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:37,363 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.4029887988948462
+2024-03-25:16:37:38,75 INFO     [psi4.driver.driver:526] Return energy(): -1.0942986880609573
+2024-03-25:16:37:38,95 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:38,97 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3977869692963554
+2024-03-25:16:37:38,769 INFO     [psi4.driver.driver:526] Return energy(): -1.0916069186721786
+2024-03-25:16:37:38,790 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:38,792 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.39271772006244376
+2024-03-25:16:37:39,491 INFO     [psi4.driver.driver:526] Return energy(): -1.0889516685229657
+2024-03-25:16:37:39,512 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:39,515 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3877760463088823
+2024-03-25:16:37:40,203 INFO     [psi4.driver.driver:526] Return energy(): -1.086334650500099
+2024-03-25:16:37:40,223 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:40,226 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3829571919322368
+2024-03-25:16:37:40,893 INFO     [psi4.driver.driver:526] Return energy(): -1.0837574094429212
+2024-03-25:16:37:40,915 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:40,917 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.37825663434173284
+2024-03-25:16:37:41,969 INFO     [psi4.driver.driver:526] Return energy(): -1.0812213323765798
+2024-03-25:16:37:41,991 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:41,994 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.37367007030192584
+2024-03-25:16:37:42,753 INFO     [psi4.driver.driver:526] Return energy(): -1.078727658332078
+2024-03-25:16:37:42,773 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:42,776 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.36919340279302343
+2024-03-25:16:37:43,456 INFO     [psi4.driver.driver:526] Return energy(): -1.0762774871598393
+2024-03-25:16:37:43,476 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:43,479 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3648227288045265
+2024-03-25:16:37:44,182 INFO     [psi4.driver.driver:526] Return energy(): -1.0738717888227989
+2024-03-25:16:37:44,203 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:44,206 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3605543279857537
+2024-03-25:16:37:44,949 INFO     [psi4.driver.driver:526] Return energy(): -1.0715114091580498
+2024-03-25:16:37:44,970 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:44,973 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3563846520838775
+2024-03-25:16:37:45,688 INFO     [psi4.driver.driver:526] Return energy(): -1.0691970791173508
+2024-03-25:16:37:45,713 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:45,716 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.35231031510645594
+2024-03-25:16:37:46,448 INFO     [psi4.driver.driver:526] Return energy(): -1.066929420613592
+2024-03-25:16:37:46,472 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:46,475 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.34832808415113037
+2024-03-25:16:37:47,148 INFO     [psi4.driver.driver:526] Return energy(): -1.0647089521528874
+2024-03-25:16:37:47,172 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:47,174 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.34443487085029584
+2024-03-25:16:37:47,865 INFO     [psi4.driver.driver:526] Return energy(): -1.062536095947015
+2024-03-25:16:37:47,886 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:47,907 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.34062772338315994
+2024-03-25:16:37:48,577 INFO     [psi4.driver.driver:526] Return energy(): -1.0604111817870765
+2024-03-25:16:37:48,596 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:48,599 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3369038190117686
+2024-03-25:16:37:49,244 INFO     [psi4.driver.driver:526] Return energy(): -1.0583344534909829
+2024-03-25:16:37:49,264 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:49,266 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3332604571013359
+2024-03-25:16:37:49,946 INFO     [psi4.driver.driver:526] Return energy(): -1.0563060728563218
+2024-03-25:16:37:49,966 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:49,968 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.32969505258860915
+2024-03-25:16:37:50,627 INFO     [psi4.driver.driver:526] Return energy(): -1.0543261242551363
+2024-03-25:16:37:50,647 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:50,649 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.32620512986506844
+2024-03-25:16:37:51,305 INFO     [psi4.driver.driver:526] Return energy(): -1.0523946187722195
+2024-03-25:16:37:51,326 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:51,329 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3227883170445472
+2024-03-25:16:37:52,12 INFO     [psi4.driver.driver:526] Return energy(): -1.0505114980876744
+2024-03-25:16:37:52,35 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:52,37 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.319442340587378
+2024-03-25:16:37:52,734 INFO     [psi4.driver.driver:526] Return energy(): -1.04867663812798
+2024-03-25:16:37:52,755 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:52,758 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.31616502025546167
+2024-03-25:16:37:53,446 INFO     [psi4.driver.driver:526] Return energy(): -1.0468898520469134
+2024-03-25:16:37:53,468 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:53,471 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.31295426437473123
+2024-03-25:16:37:54,142 INFO     [psi4.driver.driver:526] Return energy(): -1.0451508926455864
+2024-03-25:16:37:54,162 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:54,165 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3098080653833827
+2024-03-25:16:37:54,825 INFO     [psi4.driver.driver:526] Return energy(): -1.0434594665661865
+2024-03-25:16:37:54,845 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:54,848 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3067244956459602
+2024-03-25:16:37:55,562 INFO     [psi4.driver.driver:526] Return energy(): -1.041815211811551
+2024-03-25:16:37:55,582 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:55,584 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3037017035149565
+2024-03-25:16:37:56,258 INFO     [psi4.driver.driver:526] Return energy(): -1.0402177227258644
+2024-03-25:16:37:56,278 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:56,281 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.3007379096230196
+2024-03-25:16:37:56,948 INFO     [psi4.driver.driver:526] Return energy(): -1.0386665514051985
+2024-03-25:16:37:56,968 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:56,971 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.2978314033901649
+2024-03-25:16:37:57,761 INFO     [psi4.driver.driver:526] Return energy(): -1.037161199533374
+2024-03-25:16:37:57,782 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:57,784 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.29498053973158783
+2024-03-25:16:37:58,609 INFO     [psi4.driver.driver:526] Return energy(): -1.0357011299633267
+2024-03-25:16:37:58,630 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:58,633 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.2921837359527607
+2024-03-25:16:37:59,397 INFO     [psi4.driver.driver:526] Return energy(): -1.0342857600355322
+2024-03-25:16:37:59,417 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:37:59,420 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.28943946881950283
+2024-03-25:16:38:00,137 INFO     [psi4.driver.driver:526] Return energy(): -1.0329144724590218
+2024-03-25:16:38:00,159 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:38:00,162 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.28674627179162565
+2024-03-25:16:38:00,835 INFO     [psi4.driver.driver:526] Return energy(): -1.031586623462773
+2024-03-25:16:38:00,855 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:38:00,859 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.2841027324095987
+2024-03-25:16:38:01,550 INFO     [psi4.driver.driver:526] Return energy(): -1.0303015206866868
+2024-03-25:16:38:01,571 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:38:01,574 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.2815074898244492
+2024-03-25:16:38:02,259 INFO     [psi4.driver.driver:526] Return energy(): -1.0290584570460124
+2024-03-25:16:38:02,280 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:38:02,282 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.27895923246182114
+2024-03-25:16:38:02,956 INFO     [psi4.driver.driver:526] Return energy(): -1.027856687816634
+2024-03-25:16:38:02,976 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:38:02,979 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.2764566958117678
+2024-03-25:16:38:03,680 INFO     [psi4.driver.driver:526] Return energy(): -1.0266954507293753
+2024-03-25:16:38:03,701 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:38:03,704 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.273998660336454
+2024-03-25:16:38:04,415 INFO     [psi4.driver.driver:526] Return energy(): -1.0255739523020329
+2024-03-25:16:38:04,435 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:38:04,438 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.2715839494884915
+2024-03-25:16:38:05,98 INFO     [psi4.driver.driver:526] Return energy(): -1.0244913840932508
+2024-03-25:16:38:05,121 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:38:05,129 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.26921142783314495
+2024-03-25:16:38:05,791 INFO     [psi4.driver.driver:526] Return energy(): -1.0234469181021806
+2024-03-25:16:38:05,811 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:38:05,814 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.26687999926811007
+2024-03-25:16:38:06,472 INFO     [psi4.driver.driver:526] Return energy(): -1.0224397104816343
+2024-03-25:16:38:06,492 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'CCTRANSORT__WFN': 'CCSD_T', 'function_kwargs': {}}
+2024-03-25:16:38:06,495 INFO     [psi4.driver.driver:523] Compute energy(): method=ccsd(t), basis=aug-cc-pvtz, molecule=default, nre=0.26458860533499995
+2024-03-25:16:38:07,181 INFO     [psi4.driver.driver:526] Return energy(): -1.021468903834796

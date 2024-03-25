@@ -253,3 +253,88 @@ cctriples                           :      0.717u      3.100s      2.568w    100
 | ET_RHF                            :      0.300u      0.217s      0.282w    100 calls
 
 **************************************************************************************
+
+Host: clydes-mbp.haverford.edu
+
+Timers On : Mon Mar 25 16:36:51 2024
+Timers Off: Mon Mar 25 16:39:11 2024
+
+Wall Time:      139.93 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      4.950u      0.350s      3.320w    100 calls
+Libint2ERI::Libint2ERI              :      0.467u      0.017s      0.239w    300 calls
+HF: Form core H                     :      0.283u      0.083s      0.168w    100 calls
+HF: Form S/X                        :      0.050u      0.000s      0.026w    100 calls
+HF: Guess                           :      1.783u      0.233s      1.272w    100 calls
+SAD Guess                           :      1.650u      0.233s      1.155w    100 calls
+HF: Form G                          :      2.350u      0.050s      1.238w    787 calls
+JK: D                               :      0.017u      0.000s      0.004w    787 calls
+JK: USO2AO                          :      0.017u      0.000s      0.026w    787 calls
+JK: JK                              :      2.267u      0.017s      1.164w    787 calls
+PK computes JK                      :      2.267u      0.017s      1.159w    787 calls
+JK: AO2USO                          :      0.050u      0.000s      0.028w    787 calls
+HF: Form F                          :      0.000u      0.000s      0.007w    787 calls
+HF: Form D                          :      0.000u      0.000s      0.003w    787 calls
+HF: DIIS                            :      3.200u      0.667s      2.695w    687 calls
+HF: Form C                          :      0.267u      0.017s      0.202w    687 calls
+ccenergy                            :      9.000u     32.450s     29.415w    100 calls
+F build                             :      0.517u      0.817s      0.740w    851 calls
+Wmbej build                         :      0.867u      0.917s      1.076w    851 calls
+C->Wmbej                            :      0.017u      0.117s      0.094w    851 calls
+F->Wmbej                            :      0.467u      0.567s      0.575w    851 calls
+E->Wmbej                            :      0.150u      0.150s      0.233w    851 calls
+X->Wmbej                            :      0.217u      0.017s      0.121w    851 calls
+Z                                   :      0.017u      0.000s      0.041w    851 calls
+T2 Build                            :      2.217u      2.017s      2.686w    851 calls
+BT2                                 :      1.483u      1.333s      1.696w    851 calls
+ABCD:new                            :      1.483u      1.333s      1.692w    851 calls
+ABCD:S                              :      0.083u      0.233s      0.201w    851 calls
+ABCD:A                              :      0.117u      0.217s      0.192w    851 calls
+ABCD:axpy                           :      1.200u      0.833s      1.233w    851 calls
+FT2                                 :      0.033u      0.017s      0.072w    851 calls
+WmbejT2                             :      0.367u      0.400s      0.453w    851 calls
+CT2                                 :      0.217u      0.200s      0.260w    851 calls
+cctriples                           :      0.733u      3.117s      2.824w    100 calls
+ET_RHF                              :      0.167u      0.267s      0.275w    100 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      4.950u      0.350s      3.320w    100 calls
+| Libint2ERI::Libint2ERI            :      0.267u      0.017s      0.170w    200 calls
+HF: Form core H                     :      0.283u      0.083s      0.168w    100 calls
+HF: Form S/X                        :      0.050u      0.000s      0.026w    100 calls
+HF: Guess                           :      1.783u      0.233s      1.272w    100 calls
+| SAD Guess                         :      1.650u      0.233s      1.155w    100 calls
+HF: Form G                          :      2.350u      0.050s      1.238w    787 calls
+| JK: D                             :      0.017u      0.000s      0.004w    787 calls
+| JK: USO2AO                        :      0.017u      0.000s      0.026w    787 calls
+| JK: JK                            :      2.267u      0.017s      1.164w    787 calls
+| | PK computes JK                  :      2.267u      0.017s      1.159w    787 calls
+| JK: AO2USO                        :      0.050u      0.000s      0.028w    787 calls
+HF: Form F                          :      0.000u      0.000s      0.007w    787 calls
+HF: Form D                          :      0.000u      0.000s      0.003w    787 calls
+HF: DIIS                            :      3.200u      0.667s      2.695w    687 calls
+HF: Form C                          :      0.267u      0.017s      0.202w    687 calls
+Libint2ERI::Libint2ERI              :      0.200u      0.000s      0.070w    100 calls
+ccenergy                            :      9.000u     32.450s     29.415w    100 calls
+| F build                           :      0.517u      0.817s      0.740w    851 calls
+| Wmbej build                       :      0.867u      0.917s      1.076w    851 calls
+| | C->Wmbej                        :      0.017u      0.117s      0.094w    851 calls
+| | F->Wmbej                        :      0.467u      0.567s      0.575w    851 calls
+| | E->Wmbej                        :      0.150u      0.150s      0.233w    851 calls
+| | X->Wmbej                        :      0.217u      0.017s      0.121w    851 calls
+| Z                                 :      0.017u      0.000s      0.041w    851 calls
+| T2 Build                          :      2.217u      2.017s      2.686w    851 calls
+| | BT2                             :      1.483u      1.333s      1.696w    851 calls
+| | | ABCD:new                      :      1.483u      1.333s      1.692w    851 calls
+| | | | ABCD:S                      :      0.083u      0.233s      0.201w    851 calls
+| | | | ABCD:A                      :      0.117u      0.217s      0.192w    851 calls
+| | | | ABCD:axpy                   :      1.200u      0.833s      1.233w    851 calls
+| | FT2                             :      0.033u      0.017s      0.072w    851 calls
+| | WmbejT2                         :      0.367u      0.400s      0.453w    851 calls
+| | CT2                             :      0.217u      0.200s      0.260w    851 calls
+cctriples                           :      0.733u      3.117s      2.824w    100 calls
+| ET_RHF                            :      0.167u      0.267s      0.275w    100 calls
+
+**************************************************************************************
