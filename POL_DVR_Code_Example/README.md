@@ -1,9 +1,5 @@
 DVR Frequency and Isotropic Polarizability Calculations: Code Example
 
-
-Purpose: 
-
-
 Overview: 
 
 The files provided contain code to calculate the DVR (Discrete Variable Representation) frequency and isotropic polarizability.  
