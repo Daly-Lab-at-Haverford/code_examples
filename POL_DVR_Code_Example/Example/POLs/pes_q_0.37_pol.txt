@@ -1,0 +1,537 @@
+Process 0 of 1 is on skystd40.palmetto.clemson.edu - thread support 0
+initial socket setup ...start
+initial socket setup ...done 
+now start server 0 ... 
+                  Welcome to Q-Chem
+     A Quantum Leap Into The Future Of Chemistry
+
+
+ Q-Chem 5.4, Q-Chem, Inc., Pleasanton, CA (2021)
+
+ License issued to: SRG Carol Parish, MERCURY Consortium
+
+ E. Epifanovsky,  A. T. B. Gilbert,  Xintian Feng,  Joonho Lee,  Yuezhi Mao,  
+ N. Mardirossian,  P. Pokhilko,  A. White,  M. Wormit,  M. P. Coons,  
+ A. L. Dempwolff,  Zhengting Gan,  D. Hait,  P. R. Horn,  L. D. Jacobson,  
+ I. Kaliman,  J. Kussmann,  A. W. Lange,  Ka Un Lao,  D. S. Levine,  Jie Liu,  
+ S. C. McKenzie,  A. F. Morrison,  K. Nanda,  F. Plasser,  D. R. Rehn,  
+ M. L. Vidal,  Zhi-Qiang You,  Ying Zhu,  B. Alam,  B. Albrecht,  
+ A. Aldossary,  E. Alguire,  J. H. Andersen,  D. Barton,  K. Begam,  A. Behn,  
+ Y. A. Bernard,  E. J. Berquist,  H. Burton,  A. Carreras,  K. Carter-Fenk,  
+ R. Chakraborty,  A. D. Chien,  K. D. Closser,  V. Cofer-Shabica,  
+ S. Dasgupta,  Jia Deng,  M. de Wergifosse,  M. Diedenhofen,  Hainam Do,  
+ S. Ehlert,  Po-Tung Fang,  S. Fatehi,  Qingguo Feng,  J. Gayvert,  
+ Qinghui Ge,  G. Gidofalvi,  M. Goldey,  J. Gomes,  C. Gonzalez-Espinoza,  
+ S. Gulania,  A. Gunina,  M. W. D. Hanson-Heine,  P. H. P. Harbach,  
+ A. W. Hauser,  M. F. Herbst,  M. Hernandez Vera,  M. Hodecker,  
+ Z. C. Holden,  S. Houck,  Xunkun Huang,  Kerwin Hui,  B. C. Huynh,  
+ M. Ivanov,  Hyunjun Ji,  Hanjie Jiang,  B. Kaduk,  S. Kaehler,  
+ K. Khistyaev,  Jaehoon Kim,  P. Klunzinger,  Z. Koczor-Benda,  
+ Joong Hoon Koh,  D. Kosenkov,  L. Koulias,  T. Kowalczyk,  C. M. Krauter,  
+ K. Kue,  A. Kunitsa,  T. Kus,  A. Landau,  K. V. Lawler,  D. Lefrancois,  
+ S. Lehtola,  Rain Li,  Yi-Pei Li,  Jiashu Liang,  M. Liebenthal,  
+ Hung-Hsuan Lin,  You-Sheng Lin,  Fenglai Liu,  Kuan-Yu Liu,  
+ M. Loipersberger,  A. Luenser,  A. Manjanath,  P. Manohar,  E. Mansoor,  
+ S. F. Manzer,  Shan-Ping Mao,  A. V. Marenich,  T. Markovich,  S. Mason,  
+ S. A. Maurer,  P. F. McLaughlin,  M. F. S. J. Menger,  J.-M. Mewes,  
+ S. A. Mewes,  P. Morgante,  J. W. Mullinax,  T. S. Nguyen-Beck,  
+ K. J. Oosterbaan,  G. Paran,  Alexander C. Paul,  Suranjan K. Paul,  
+ F. Pavosevic,  Zheng Pei,  S. Prager,  E. I. Proynov,  E. Ramos,  B. Rana,  
+ A. E. Rask,  A. Rettig,  R. M. Richard,  F. Rob,  E. Rossomme,  T. Scheele,  
+ M. Scheurer,  M. Schneider,  N. Sergueev,  S. M. Sharada,  W. Skomorowski,  
+ D. W. Small,  C. J. Stein,  Yu-Chuan Su,  E. J. Sundstrom,  Zhen Tao,  
+ J. Thirman,  T. Tsuchimochi,  N. M. Tubman,  S. P. Veccham,  O. Vydrov,  
+ J. Wenzel,  J. Witte,  A. Yamada,  Kun Yao,  S. Yeganeh,  S. R. Yost,  
+ A. Zech,  Igor Ying Zhang,  Xing Zhang,  Yu Zhang,  D. Zuev,  
+ A. Aspuru-Guzik,  A. T. Bell,  N. A. Besley,  K. B. Bravaya,  B. R. Brooks,  
+ D. Casanova,  Jeng-Da Chai,  S. Coriani,  C. J. Cramer,  
+ A. E. DePrince, III,  R. A. DiStasio Jr.,  A. Dreuw,  B. D. Dunietz,  
+ T. R. Furlani,  W. A. Goddard III,  S. Grimme,  S. Hammes-Schiffer,  
+ T. Head-Gordon,  W. J. Hehre,  Chao-Ping Hsu,  T.-C. Jagau,  Yousung Jung,  
+ A. Klamt,  Jing Kong,  D. S. Lambrecht,  WanZhen Liang,  N. J. Mayhall,  
+ C. W. McCurdy,  J. B. Neaton,  C. Ochsenfeld,  J. A. Parkhill,  R. Peverati,  
+ V. A. Rassolov,  Yihan Shao,  L. V. Slipchenko,  T. Stauch,  R. P. Steele,  
+ J. E. Subotnik,  A. J. W. Thom,  A. Tkatchenko,  D. G. Truhlar,  
+ T. Van Voorhis,  T. A. Wesolowski,  K. B. Whaley,  H. L. Woodcock III,  
+ P. M. Zimmerman,  S. Faraji,  P. M. W. Gill,  M. Head-Gordon,  
+ J. M. Herbert,  A. I. Krylov
+
+ Contributors to earlier versions of Q-Chem not listed above: 
+ R. D. Adamson,  B. Austin,  R. Baer,  J. Baker,  G. J. O. Beran,  
+ K. Brandhorst,  S. T. Brown,  E. F. C. Byrd,  A. K. Chakraborty,  
+ G. K. L. Chan,  Chun-Min Chang,  Yunqing Chen,  C.-L. Cheng,  
+ Siu Hung Chien,  D. M. Chipman,  D. L. Crittenden,  H. Dachsel,  
+ R. J. Doerksen,  A. D. Dutoi,  R. G. Edgar,  J. Fosso-Tande,  
+ L. Fusti-Molnar,  D. Ghosh,  A. Ghysels,  A. Golubeva-Zadorozhnaya,  
+ J. Gonthier,  M. S. Gordon,  S. R. Gwaltney,  G. Hawkins,  J. E. Herr,  
+ A. Heyden,  S. Hirata,  E. G. Hohenstein,  G. Kedziora,  F. J. Keil,  
+ C. Kelley,  Jihan Kim,  R. A. King,  R. Z. Khaliullin,  P. P. Korambath,  
+ W. Kurlancheek,  A. Laurent,  A. M. Lee,  M. S. Lee,  S. V. Levchenko,  
+ Ching Yeh Lin,  D. Liotard,  E. Livshits,  R. C. Lochan,  I. Lotan,  
+ L. A. Martinez-Martinez,  P. E. Maslen,  N. Nair,  D. P. O'Neill,  
+ D. Neuhauser,  E. Neuscamman,  C. M. Oana,  R. Olivares-Amaya,  R. Olson,  
+ T. M. Perrine,  B. Peters,  P. A. Pieniazek,  A. Prociuk,  Y. M. Rhee,  
+ J. Ritchie,  M. A. Rohrdanz,  E. Rosta,  N. J. Russ,  H. F. Schaefer III,  
+ M. W. Schmidt,  N. E. Schultz,  S. Sharma,  N. Shenvi,  C. D. Sherrill,  
+ A. C. Simmonett,  A. Sodt,  T. Stein,  D. Stuck,  K. S. Thanthiriwatte,  
+ V. Vanovschi,  L. Vogt,  Tao Wang,  A. Warshel,  M. A. Watson,  
+ C. F. Williams,  Q. Wu,  X. Xu,  Jun Yang,  W. Zhang,  Yan Zhao
+
+ Please cite Q-Chem as follows:
+ Y. Shao et al., Mol. Phys. 113, 184-215 (2015)
+ DOI: 10.1080/00268976.2014.952696
+
+ Q-Chem 5.4.0 for Intel X86 EM64T Linux
+
+ Parts of Q-Chem use Armadillo 9.800.1 (Horizon Scraper).
+ http://arma.sourceforge.net/
+
+ Q-Chem begins on Tue Dec  5 18:25:37 2023  
+
+ Host: 
+0
+
+     Scratch files written to /local_scratch/pbs.1652979[0].pbs02/pyqchem_1059338//
+ May1621 |scratch|qcdevops|jenkins|workspace|build_RNUM 6351   
+ Parallel job on  1  processors
+ Processing $rem in /software/commercial/MERCURY/QChem/5.4.0/config/preferences:
+ Processing $rem in /home/jeanettepatel/.qchemrc:
+
+ Checking the input file for inconsistencies... 	...done.
+
+--------------------------------------------------------------
+User input:
+--------------------------------------------------------------
+$molecule
+0 1
+C	        3.2862790000        -0.3534850000         0.0292450000
+C	        2.1055630000         0.6380510000         0.2968100000
+H	        1.2002620000         1.3806860000         0.4920730000
+C	        4.2298570000        -1.1423380000        -0.1801670000
+H	        4.2428250000        -1.9442470000         0.5637110000
+H	        5.1919520000        -0.6240800000        -0.1317760000
+H	        4.1455940000        -1.6025120000        -1.1689890000
+H	       -0.3820270000         3.1368500000        -0.1256620000
+O	       -0.4860440000         2.2923080000         0.3231290000
+C	       -1.2836810000         1.4224860000        -0.4964050000
+C	       -1.6050370000         0.1703110000         0.3047000000
+C	       -2.4413690000        -0.8406240000        -0.4886700000
+C	       -2.7622640000        -2.1040760000         0.3161280000
+H	       -0.7325990000         1.1563360000        -1.4087710000
+H	       -2.2103900000         1.9298260000        -0.7950950000
+H	       -0.6658430000        -0.2952270000         0.6220900000
+H	       -2.1363580000         0.4645300000         1.2168550000
+H	       -1.9043390000        -1.1186390000        -1.4036860000
+H	       -3.3765290000        -0.3681970000        -0.8142640000
+H	       -1.8460430000        -2.6159220000         0.6261390000
+H	       -3.3278750000        -1.8621560000         1.2213900000
+H	       -3.3571800000        -2.8101730000        -0.2696650000
+$end
+$rem
+jobtype polarizability
+method tpss
+basis 6-311++g**
+thresh 14
+scf_convergence 9
+scf_algorithm diis
+max_scf_cycles 200
+gui 2
+set_iter 30
+RPA False
+mem_total 40000
+mem_static 2000
+n_frozen_virtual 0
+mom_start False
+skip_scfman False
+scf_guess_mix False
+symmetry False
+sym_ignore True
+sym_tol 5
+dft_d d3
+xc_smart_grid True
+xc_grid 000099000590
+$end
+
+--------------------------------------------------------------
+ Adding empirical dispersion correction 
+ ----------------------------------------------------------------
+ Doing -D3(OP) with
+ s6  =   1.00000
+ s8  =   0.51581
+ a1  =   0.57500
+ a2  =   3.00000
+ pow =   14.00000
+ -D3 energy without 3body term =     -0.0094422442 hartrees
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      C       3.2862790000    -0.3534850000     0.0292450000
+    2      C       2.1055630000     0.6380510000     0.2968100000
+    3      H       1.2002620000     1.3806860000     0.4920730000
+    4      C       4.2298570000    -1.1423380000    -0.1801670000
+    5      H       4.2428250000    -1.9442470000     0.5637110000
+    6      H       5.1919520000    -0.6240800000    -0.1317760000
+    7      H       4.1455940000    -1.6025120000    -1.1689890000
+    8      H      -0.3820270000     3.1368500000    -0.1256620000
+    9      O      -0.4860440000     2.2923080000     0.3231290000
+   10      C      -1.2836810000     1.4224860000    -0.4964050000
+   11      C      -1.6050370000     0.1703110000     0.3047000000
+   12      C      -2.4413690000    -0.8406240000    -0.4886700000
+   13      C      -2.7622640000    -2.1040760000     0.3161280000
+   14      H      -0.7325990000     1.1563360000    -1.4087710000
+   15      H      -2.2103900000     1.9298260000    -0.7950950000
+   16      H      -0.6658430000    -0.2952270000     0.6220900000
+   17      H      -2.1363580000     0.4645300000     1.2168550000
+   18      H      -1.9043390000    -1.1186390000    -1.4036860000
+   19      H      -3.3765290000    -0.3681970000    -0.8142640000
+   20      H      -1.8460430000    -2.6159220000     0.6261390000
+   21      H      -3.3278750000    -1.8621560000     1.2213900000
+   22      H      -3.3571800000    -2.8101730000    -0.2696650000
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =         337.58165909 hartrees
+ There are       32 alpha and       32 beta electrons
+ Requested basis set is 6-311++G(d,p)
+ There are 118 shells and 274 basis functions
+
+ Total QAlloc Memory Limit  40000 MB
+ Mega-Array Size      1956 MB
+ MEM_STATIC part      2000 MB
+ A cutoff of  1.0D-14 yielded   6020 shell pairs
+ There are     32135 function pairs (     33921 Cartesian)
+ Smallest overlap matrix eigenvalue = 1.60E-06
+
+ Scale SEOQF with 1.000000e-02/1.000000e-01/1.000000e-01
+
+ Standard Electronic Orientation quadrupole field applied
+ Nucleus-field energy     =     0.0000000097 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 64.000000 electrons
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:  TPSS      Correlation:  TPSS
+ Using Euler-Maclaurin-Lebedev (99,590) quadrature formula
+ Dispersion:   Grimme D3
+ using 12 threads for integral computing
+ -------------------------------------------------------
+ OpenMP Integral computing Module                
+ Release: version 1.0, May 2013, Q-Chem Inc. Pittsburgh 
+ -------------------------------------------------------
+ A restricted SCF calculation will be
+ performed using DIIS
+ SCF converges when DIIS error is below 1.0e-09
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+    1    -351.0897638380      3.34e-02  
+    2    -350.0378267424      5.45e-03  
+    3    -349.5585375637      8.63e-03  
+    4    -349.7911055252      6.54e-03  
+    5    -350.3180746472      6.34e-04  
+    6    -350.3190081589      5.33e-04  
+    7    -350.3210898747      9.43e-05  
+    8    -350.3211572291      3.08e-05  
+    9    -350.3211654105      5.22e-06  
+   10    -350.3211655655      3.20e-06  
+   11    -350.3211656534      1.23e-06  
+   12    -350.3211656639      6.71e-07  
+   13    -350.3211656683      1.94e-07  
+   14    -350.3211656687      4.10e-08  
+   15    -350.3211656687      1.42e-08  
+   16    -350.3211656687      3.76e-09  
+   17    -350.3211656687      5.17e-10  Convergence criterion met
+ ---------------------------------------
+ SCF time:   CPU 594.18s  wall 52.00s 
+ SCF   energy in the final basis set =     -350.3211656687
+ Total energy in the final basis set =     -350.3211656687
+ 
+ --------------------------------------------------------------
+ 
+                    Orbital Energies (a.u.)
+ --------------------------------------------------------------
+ 
+ Alpha MOs
+ -- Occupied --
+-18.8980 -10.0368 -10.0228 -10.0218 -10.0009  -9.9844  -9.9794  -9.9744
+ -0.9705  -0.7687  -0.7402  -0.6710  -0.5827  -0.5750  -0.5373  -0.4866
+ -0.4767  -0.4433  -0.4196  -0.4195  -0.4047  -0.3948  -0.3858  -0.3645
+ -0.3322  -0.3250  -0.3022  -0.2957  -0.2933  -0.2489  -0.1810  -0.1808
+ -- Virtual --
+ -0.0438  -0.0437  -0.0194  -0.0106  -0.0055   0.0077   0.0136   0.0247
+  0.0324   0.0356   0.0380   0.0447   0.0506   0.0555   0.0577   0.0621
+  0.0699   0.0717   0.0847   0.0884   0.0918   0.0929   0.0978   0.1049
+  0.1106   0.1192   0.1235   0.1284   0.1315   0.1346   0.1385   0.1429
+  0.1461   0.1513   0.1538   0.1578   0.1605   0.1641   0.1692   0.1718
+  0.1725   0.1776   0.1816   0.1859   0.1970   0.1975   0.2002   0.2068
+  0.2116   0.2152   0.2212   0.2284   0.2326   0.2449   0.2643   0.2663
+  0.2800   0.2864   0.2921   0.2962   0.3205   0.3345   0.3379   0.3466
+  0.3536   0.3578   0.4130   0.4236   0.4273   0.4357   0.4368   0.4453
+  0.4673   0.4737   0.4959   0.5125   0.5341   0.5493   0.5817   0.5900
+  0.5931   0.6052   0.6096   0.6151   0.6224   0.6287   0.6373   0.6493
+  0.6513   0.6541   0.6640   0.6713   0.6742   0.6879   0.6938   0.7000
+  0.7195   0.7288   0.7400   0.7617   0.7681   0.7712   0.8455   0.8713
+  0.8774   0.9210   0.9457   0.9523   0.9675   0.9789   0.9866   1.0006
+  1.0329   1.0731   1.1049   1.1257   1.1971   1.2058   1.2148   1.2158
+  1.2415   1.2548   1.2601   1.2926   1.3066   1.3785   1.3999   1.4085
+  1.4179   1.4403   1.4501   1.4647   1.4913   1.5268   1.5386   1.5495
+  1.5548   1.5621   1.5661   1.5738   1.5793   1.5914   1.5985   1.6061
+  1.6432   1.6602   1.6688   1.6933   1.7008   1.7283   1.7339   1.7684
+  1.7784   1.8076   1.8130   1.8339   1.8455   1.8847   1.9074   1.9553
+  2.0230   2.0340   2.0460   2.0576   2.0656   2.0929   2.1118   2.1490
+  2.1822   2.1914   2.2081   2.2819   2.3365   2.3465   2.3515   2.3779
+  2.3850   2.3877   2.4673   2.4849   2.5009   2.5059   2.5313   2.5354
+  2.5479   2.5550   2.5739   2.5872   2.6083   2.6210   2.6337   2.6556
+  2.6747   2.6955   2.7401   2.7487   2.7765   2.8159   2.8296   2.8383
+  2.8556   2.8650   2.8743   2.8795   2.9050   2.9274   2.9718   2.9871
+  3.0092   3.0369   3.0681   3.1364   3.1709   3.2455   3.2777   3.3100
+  3.4089   3.6451   3.7943   3.8095   3.8283   3.8494   3.8636   3.8730
+  3.8743   3.8771   3.8944   3.9647   4.0934   4.1992   4.3176   5.0843
+  5.3863   5.6061  23.5327  23.7394  23.8325  23.8691  23.9143  23.9780
+ 24.6696  49.9340
+ --------------------------------------------------------------
+ 
+          Ground-State Mulliken Net Atomic Charges
+
+     Atom                 Charge (a.u.)
+  ----------------------------------------
+      1 C                     0.201611
+      2 C                    -1.342442
+      3 H                     0.354722
+      4 C                     0.216150
+      5 H                     0.192740
+      6 H                     0.194334
+      7 H                     0.190199
+      8 H                     0.267312
+      9 O                    -0.266570
+     10 C                    -0.595212
+     11 C                    -0.061519
+     12 C                    -0.100149
+     13 C                    -0.716070
+     14 H                     0.192921
+     15 H                     0.168123
+     16 H                     0.111314
+     17 H                     0.186177
+     18 H                     0.155337
+     19 H                     0.147443
+     20 H                     0.171212
+     21 H                     0.161709
+     22 H                     0.170659
+  ----------------------------------------
+  Sum of atomic charges =     0.000000
+
+ -----------------------------------------------------------------
+                    Cartesian Multipole Moments
+ -----------------------------------------------------------------
+    Charge (ESU x 10^10)
+                -0.0000
+    Dipole Moment (Debye)
+         X      -0.5677      Y      -0.2435      Z      -1.6799
+       Tot       1.7899
+    Quadrupole Moments (Debye-Ang)
+        XX     -44.5826     XY      -7.4882     YY     -46.3408
+        XZ      -0.8478     YZ      -2.6707     ZZ     -54.9952
+    Octopole Moments (Debye-Ang^2)
+       XXX      35.7641    XXY     -22.7148    XYY      -1.1499
+       YYY      32.1134    XXZ      -6.3509    XYZ       2.3406
+       YYZ      -9.0935    XZZ      -5.7557    YZZ      -0.3204
+       ZZZ      -2.5676
+    Hexadecapole Moments (Debye-Ang^3)
+      XXXX   -1916.5343   XXXY    -115.9146   XXYY    -468.9365
+      XYYY     -31.5157   YYYY    -600.4896   XXXZ     -23.2553
+      XXYZ       2.0229   XYYZ      10.2003   YYYZ     -18.6197
+      XXZZ    -394.3513   XYZZ      -9.1985   YYZZ    -143.8928
+      XZZZ     -10.9478   YZZZ       2.5849   ZZZZ    -145.9008
+ -----------------------------------------------------------------
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  Calculating the polarizability using responseman/libresponse.
+ =============================================================================
+  responseman begin
+ -----------------------------------------------------------------------------
+  All stored options:
+   _almo_do_virt_relocalization: 0
+   _almo_project_occs: 0
+   _almo_project_virts: 1
+   _almo_use_frgm_coefs: 0
+   _do_compute_generalized_density: 1
+   _do_orthogonalization_canonical: 0
+   _frgm_response_idx: 0
+   _mask_dg_ao: 0
+   _mask_ediff_mo: 0
+   _mask_form_results_mo: 0
+   _mask_ints_mnov_ao: 0
+   _mask_j_ao: 0
+   _mask_k_ao: 0
+   _mask_operator_ao: 0
+   _mask_product_mo: 0
+   _mask_rhsvec_mo: 0
+   _mask_rspvec_guess_mo: 0
+   _mask_rspvec_mo: 0
+   conv: 8
+   diis_start: 1
+   diis_vectors: 7
+   dump_ao_integrals: 0
+   force_nonorthogonal: 0
+   force_not_nonorthogonal: 0
+   hamiltonian: rpa
+   integral_engine: libint
+   maxiter: 60
+   memory: 2000
+   order: linear
+   print_level: 2
+   read: 0
+   rhf_as_uhf: 0
+   run_type: single
+   save: 0
+   solver: diis
+   spin: singlet
+ -----------------------------------------------------------------------------
+  Settings
+   nocc_alph: 32
+   nvirt_alph: 242
+   nocc_beta: 32
+   nvirt_beta: 242
+   nov_alph: 7744
+   nov_beta: 7744
+   Orbital Hessian: RPA
+   Operator spin type: singlet
+   Max. iter: 60
+   Convergence threshold: 10^-8
+   Frequencies: 0 
+ -----------------------------------------------------------------------------
+  Uncoupled result (initial guess):
+  [   1 :     dipole 1 ,   1 :     dipole 1 ]:   246.603087782354123192
+  [   1 :     dipole 1 ,   2 :     dipole 2 ]:   -97.955552975395903559
+  [   1 :     dipole 1 ,   3 :     dipole 3 ]:   -23.904178412238870521
+  [   2 :     dipole 2 ,   1 :     dipole 1 ]:   -97.955552975395917770
+  [   2 :     dipole 2 ,   2 :     dipole 2 ]:   209.968306381407671779
+  [   2 :     dipole 2 ,   3 :     dipole 3 ]:    21.192168081094820309
+  [   3 :     dipole 3 ,   1 :     dipole 1 ]:   -23.904178412238870521
+  [   3 :     dipole 3 ,   2 :     dipole 2 ]:    21.192168081094813203
+  [   3 :     dipole 3 ,   3 :     dipole 3 ]:   131.237202207987991187
+ -----------------------------------------------------------------------------
+  iteration         rmsd        enorm
+ -----------------------------------------------------------------------------
+  Operator: dipole / component: 1 / origin: zero (0, 0, 0)
+          1 1.520712e+02 1.520712e+02
+          2 9.582550e+02 9.582550e+02
+          3 8.350912e+02 9.810721e+00
+          4 7.072604e+00 1.744520e+00
+          5 1.277303e+00 4.904412e-01
+          6 3.834045e-01 6.909834e-02
+          7 5.431160e-02 2.257104e-02
+          8 1.617115e-02 3.649071e-03
+          9 2.790303e-03 1.363823e-03
+         10 9.586841e-04 3.903913e-04
+         11 3.078969e-04 9.554269e-05
+         12 8.422562e-05 5.179566e-05
+         13 5.206518e-05 2.686719e-05
+         14 1.789920e-05 5.993143e-06
+         15 6.492140e-06 2.927221e-06
+         16 1.917694e-06 4.109389e-07
+         17 2.643553e-07 1.628178e-07
+         18 1.160619e-07 7.495053e-08
+         19 5.830411e-08 1.788216e-08
+         20 1.111530e-08 3.488829e-09
+  Operator: dipole / component: 2 / origin: zero (0, 0, 0)
+          1 1.327131e+02 1.327131e+02
+          2 8.337493e+02 8.337493e+02
+          3 7.279163e+02 1.061411e+01
+          4 8.066334e+00 1.969862e+00
+          5 1.476634e+00 3.897698e-01
+          6 2.947979e-01 8.892250e-02
+          7 6.018481e-02 1.845466e-02
+          8 1.392605e-02 3.251818e-03
+          9 2.897431e-03 2.064251e-03
+         10 1.541334e-03 3.473451e-04
+         11 3.481122e-04 1.589124e-04
+         12 1.956432e-04 9.004362e-05
+         13 6.716817e-05 3.460725e-05
+         14 2.747311e-05 8.091527e-06
+         15 5.626203e-06 1.629017e-06
+         16 1.160512e-06 5.833057e-07
+         17 3.876851e-07 8.829595e-08
+         18 7.155955e-08 7.401061e-08
+         19 6.787542e-08 2.160633e-08
+         20 1.403510e-08 3.944997e-09
+  Operator: dipole / component: 3 / origin: zero (0, 0, 0)
+          1 3.841725e+01 3.841725e+01
+          2 2.316763e+02 2.316763e+02
+          3 2.053534e+02 1.091839e+01
+          4 8.529251e+00 2.834872e+00
+          5 1.944819e+00 2.450447e-01
+          6 1.760674e-01 7.111733e-02
+          7 4.447294e-02 8.677618e-03
+          8 4.932646e-03 1.824379e-03
+          9 1.373928e-03 8.780359e-04
+         10 6.038270e-04 2.945666e-04
+         11 4.164575e-04 2.862851e-04
+         12 3.044111e-04 7.558104e-05
+         13 6.603920e-05 2.673131e-05
+         14 2.267932e-05 1.015904e-05
+         15 7.131791e-06 1.993385e-06
+         16 1.363930e-06 4.533178e-07
+         17 2.692202e-07 1.329318e-07
+         18 9.659154e-08 6.140754e-08
+         19 7.514205e-08 6.018443e-08
+         20 7.825513e-08 3.897492e-08
+         21 3.369807e-08 4.231539e-09
+ ----------------------------------------------------------------------------- 
+  Final result: 
+  [   1 :     dipole 1 ,   1 :     dipole 1 ]:   129.124372811336826317
+  [   1 :     dipole 1 ,   2 :     dipole 2 ]:   -20.011819961366263954
+  [   1 :     dipole 1 ,   3 :     dipole 3 ]:    -3.983744840585904612
+  [   2 :     dipole 2 ,   1 :     dipole 1 ]:   -20.011819962609362022
+  [   2 :     dipole 2 ,   2 :     dipole 2 ]:   109.949844871250078882
+  [   2 :     dipole 2 ,   3 :     dipole 3 ]:     2.577491235294568028
+  [   3 :     dipole 3 ,   1 :     dipole 1 ]:    -3.983744841570374007
+  [   3 :     dipole 3 ,   2 :     dipole 2 ]:     2.577491235849878048
+  [   3 :     dipole 3 ,   3 :     dipole 3 ]:    82.393730075949633829
+  time (s):             316.8631
+ -----------------------------------------------------------------------------
+  responseman end
+ =============================================================================
+ -----------------------------------------------------------------------------
+  Polarizability tensor      [a.u.]
+    129.1243728    -20.0118200     -3.9837448
+    -20.0118200    109.9498449      2.5774912
+     -3.9837448      2.5774912     82.3937301
+  Principal components       [a.u.]
+     82.0165184     97.3474971    142.1039322
+  Isotropic polarizability   [a.u.]
+    107.1559826
+  Anisotropic polarizability [a.u.]
+     54.0771425
+  Polarizability tensor      [angstrom^3]
+     19.1342579     -2.9654458     -0.5903301
+     -2.9654458     16.2928860      0.3819448
+     -0.5903301      0.3819448     12.2094911
+  Principal components       [angstrom^3]
+     12.1535941     14.4254108     21.0576302
+  Isotropic polarizability   [angstrom^3]
+     15.8788784
+  Anisotropic polarizability [angstrom^3]
+      8.0134058
+  Orientation
+      0.0650104     -0.5332263      0.8434710
+     -0.0454080     -0.8459643     -0.5313026
+      0.9968509     -0.0037601     -0.0792093
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ Total job time:  368.93s(wall), 4338.81s(cpu) 
+ Tue Dec  5 18:31:46 2023
+
+        *************************************************************
+        *                                                           *
+        *  Thank you very much for using Q-Chem.  Have a nice day.  *
+        *                                                           *
+        *************************************************************
+
+
+0 sent ACK to 0 
+now end server 0 ... 

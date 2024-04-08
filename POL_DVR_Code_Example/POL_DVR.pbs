@@ -1,0 +1,32 @@
+#!/bin/bash 
+# 
+#PBS -N POL_DVR_TPSS-D3_6-311++Gdp_2-16
+#PBS -q skystd 
+#PBS -l select=1:ncpus=52:mem=110gb 
+#PBS -l walltime=240:00:00 
+#PBS -j oe 
+#PBS -M jpatel@haverford.edu 
+#PBS -m abe 
+#PBS -J 2-16
+
+module load anaconda3/2022.05-gcc/9.5.0
+module load qchem
+#module load python
+#source activate qchem
+echo "qchem software activated"
+
+export QCSCRATCH="$TMPDIR" 
+echo "QChem scratch directory set" 
+  
+cd ${PBS_O_WORKDIR} 
+
+# Run the qchem calculation 
+#pwd
+#cd home/jeanettepatel/POL_DVR
+#pwd
+
+mkdir solvent${PBS_ARRAY_INDEX}
+
+cd solvent${PBS_ARRAY_INDEX}
+#bash *.sh
+python ../run_dvr_${PBS_ARRAY_INDEX}.py ${PBS_ARRAY_INDEX} > run_dvr_${PBS_ARRAY_INDEX}-out.txt
