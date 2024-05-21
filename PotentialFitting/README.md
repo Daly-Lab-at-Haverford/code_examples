@@ -1,11 +1,12 @@
 # Overview
 
-This is a guide on calculating and fitting potential energy surfaces as required for 
+This is a guide on calculating and fitting potential energy surfaces with specific attention to obtaining CHARMM-compatable values to be used in OpenMM simulations.
 
 # Required Packages
 
-* psi4
+* psi4=1.5
     * Any electronic structure program can be used, but Psi4 is easy to install and use in an otherwise pythonic environment.
+    * Some of the optimizations were performed using Q-Chem.
 * jupyter 
 * notebook
 * matplotlib
