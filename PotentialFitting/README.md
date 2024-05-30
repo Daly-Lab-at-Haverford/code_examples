@@ -4,7 +4,7 @@ This is a guide on calculating and fitting potential energy surfaces with specif
 
 # Required Packages
 
-* psi4=1.5
+* psi4
     * Any electronic structure program can be used, but Psi4 is easy to install and use in an otherwise pythonic environment.
     * Some of the optimizations were performed using Q-Chem.
 * jupyter 
@@ -32,8 +32,10 @@ These can be installed using conda:
 
 # Other Useful Links
 
-* Psi4 documentation: https://psicode.org/psi4manual/1.2.1/documentation.html
+* Psi4 documentation: https://psicode.org/psi4manual/master/index.html
 * On forcefields: https://computecanada.github.io/molmodsim-md-theory-lesson-novice/01-Force_Fields_and_Interactions/index.html 
 * On molecular mechanics: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4026342/
 
 # Citation
+
+1. Daly C, Seebald L, Wolk E. Employing Metadynamics to Predict the Membrane Partitioning of Carboxy-2H-Azirine Natural Products. ChemRxiv. 2024; doi:10.26434/chemrxiv-2024-m8v9m  This content is a preprint and has not been peer-reviewed.
