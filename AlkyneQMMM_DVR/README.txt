@@ -22,8 +22,8 @@ to calculate the DVR frequency for a terminal alkyne stretch (20-point PES)
         * the qm region can be set to any value, including 0
     * **template_qm** finds the frequency of a structure with solvents in the quantum region
     and with NO molecular mechanics region
-* The example h5 file here is from an MD simulation of propargyl acetate in triethylamine
-and it contains 500 frames
+* If you need an .h5 file for testing one can be found here: /homes/aaneesh/alkynes/QM_MM/code-example/PAC_in_TEA_prod.h5
+	* This is a production file from a simulation of propargyl acetate in triethylamine and contains 500 frames
 * getQCInput.py is where you can customize the calculation to the specifications of your system.
     * DFT functional and basis set
     * probe and solvent type
