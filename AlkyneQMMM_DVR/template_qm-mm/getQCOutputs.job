@@ -1,0 +1,31 @@
+#!/bin/bash
+#SBATCH -p shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --mem-per-cpu=2G
+#SBATCH -t 1:00:00
+#SBATCH -J getQCOutputs
+#SBATCH -A jhu148
+#SBATCH --export=ALL
+#SBATCH --constraint="lustre"
+#SBATCH --array=0-1
+
+module purge
+module load cpu/0.15.4
+module load gcc/10.2.0
+module load mvapich2/2.3.6
+module load slurm
+
+source ~/.bashrc
+source activate qchem
+echo $CONDA_DEFAULT_ENV
+
+cd $SLURM_SUBMIT_DIR
+
+mkdir -p frame$SLURM_ARRAY_TASK_ID
+for i in {0..19}
+do
+  echo "Getting outputs for point $i"
+  python getQCOutput.py $SLURM_ARRAY_TASK_ID $i
+done
+python calcDVR.py $SLURM_ARRAY_TASK_ID
