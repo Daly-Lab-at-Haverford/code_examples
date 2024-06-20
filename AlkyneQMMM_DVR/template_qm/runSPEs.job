@@ -1,0 +1,47 @@
+#!/bin/bash
+#SBATCH -p shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=20
+#SBATCH --mem-per-cpu=2G
+#SBATCH -t 48:00:00
+#SBATCH -J runSPEs
+#SBATCH -A jhu148
+#SBATCH --export=ALL
+#SBATCH --constraint="lustre"
+#SBATCH --array=0-1
+
+module purge
+module load cpu/0.15.4
+module load gcc/10.2.0
+module load mvapich2/2.3.6
+module load qchem/5.4
+module load slurm
+
+source ~/.bashrc
+echo $CONDA_DEFAULT_ENV
+#conda list
+
+export QCSCRATCH="/scratch/$USER/job_$SLURM_JOB_ID"
+#echo "Scratch directory set to $QCSCRATCH"
+
+cd $SLURM_SUBMIT_DIR
+
+FRAME_PATH="frame$SLURM_ARRAY_TASK_ID"
+mkdir -p $FRAME_PATH
+for i in {0..19}
+do
+  INFILE="point${i}QCInput.qcin"
+  INFILE_PATH="$FRAME_PATH/$INFILE"
+  if test -f "$INFILE_PATH"; then
+    #echo "$INFILE_PATH exists."
+    #echo "First attempt at spe point $i"
+    SCRATCH_FRAME_PATH="$QCSCRATCH/$FRAME_PATH"
+    mkdir -p $SCRATCH_FRAME_PATH
+    cp $INFILE_PATH $SCRATCH_FRAME_PATH
+    INFILE_SCRATCH_PATH="$SCRATCH_FRAME_PATH/$INFILE"
+    OUTFILE="point${i}QCOutput.qcout"
+    OUTFILE_SCRATCH_PATH="$SCRATCH_FRAME_PATH/$OUTFILE"
+    qchem -np 20 $INFILE_SCRATCH_PATH $OUTFILE_SCRATCH_PATH $QCSCRATCH
+    cp $OUTFILE_SCRATCH_PATH $FRAME_PATH
+  fi
+done
