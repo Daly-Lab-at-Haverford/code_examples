@@ -8,7 +8,7 @@ import DVR_3atom
 import extract_dipoles
 
 parser = argparse.ArgumentParser()
-parser.add_argument('solvent', type=int)
+parser.add_argument('solvent', type=str)
 solvent = parser.parse_args().solvent
 probe = 'PPY_1butanol'
 
