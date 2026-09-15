@@ -29,12 +29,13 @@ The files provided contain code to calculate the DVR (Discrete Variable Represen
     
     
 Running a Calculation: 
-First, the user should create a system of molecules using IqMol.  This code is designed to calculate the frequency of the CC triple bond and the polarizability of an alkyne, so the system should include exactly one alkyne and potentially another solvent molecule; here, propyne and water are used as the two molecules.  
+First, the user should create a system of optimized molecules using IqMol. It is important to optimize the molecules before running DVR. In this case, it may be helpful to create separate folders for optimized and un-optimized xyz files. Since, the DVR_3atom.py file looks for a {}.xyz file, it can be easy to mix up if the .xyz listed in the probe-specific DVR folder is optimized or un-optimized. The user could also edit the DVR_3atom.py file to look for a {}_opt.xyz file to help the user identify optimized versus un-optimized xyz files. This code is designed to calculate the frequency of the CC triple bond and the polarizability of an alkyne, so the system should include exactly one alkyne and potentially another solvent molecule; here, propyne and water are used as the two molecules. For review, within the probe-specific DVR folder, the user should have a solvent.xyz file and probe.xyz file. 
+
 After uploading the xyz file for the system to the same folder in which these files are located, the user should follow the instructions above on how to modify the run_dvr.py file appropriately.  
 
 To run the calculation on a workstation, navigate to the directory through the terminal.  Note that it is recommended to use a 'qchem' conda environment.  Enter the following lines to run the calculation: 
 conda activate qchem
- python run_dvr.py > run_dvr-out.txt
+ python run_dvr.py solvent_name > run_dvr-out.txt
  
  After the calculation is complete, verify that the run_dvr-out.txt file contains both the DVR frequency and the transition isotropic polarizability for the CC stretch of the alkyne present.  
 
