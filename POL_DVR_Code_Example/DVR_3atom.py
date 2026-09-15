@@ -17,7 +17,7 @@ def run_3atom_DVR(probe, calc_method, calc_basis, n_proc, N, H, CH, CR, R, solve
     # Collect the molecule geometry and atom symbols
     #xyz_file = glob.glob('*.xyz')
 
-    with open('../{}.xyz'.format(solvent), 'r') as file:
+    with open('{}.xyz'.format(solvent), 'r') as file:
         xyz = file.read()
 
     xyz = xyz.split()
